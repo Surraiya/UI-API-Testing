@@ -1,0 +1,4 @@
+{
+  "authUrl": "http://%s:%s@localhost:8088/web",
+  "variantNumber": "2"
+}
