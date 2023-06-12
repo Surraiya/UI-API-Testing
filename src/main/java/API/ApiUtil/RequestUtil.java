@@ -6,15 +6,15 @@ import io.restassured.specification.RequestSpecification;
 
 import java.util.Map;
 
-import static Utilities.FileReader.FileKeyName.CredentialsKey.API_URL;
-import static Utilities.FileReader.FileName.CREDENTIALS;
+import static Utilities.FileReader.FileKeyName.ConfigDataKey.API_URL;
+import static Utilities.FileReader.FileName.CONFIG_DATA;
 import static Utilities.FileReader.JsonFileReader.getStringValue;
 import static io.restassured.RestAssured.given;
 
 public class RequestUtil {
 
     private static final RequestSpecification requestSpecification = given()
-            .baseUri(getStringValue(CREDENTIALS.fileName, API_URL.key));
+            .baseUri(getStringValue(CONFIG_DATA.fileName, API_URL.key));
 
     public static Response sendTokenGenerationRequest(String endpoint, String variantKey, String variant) {
         return requestSpecification
