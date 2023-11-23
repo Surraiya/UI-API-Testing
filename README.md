@@ -82,7 +82,7 @@ The required autotests are given:
 
 ## API
 The API specification is given:
-[Reporting-Portal-Api-Spec.pdf](Reporting-Portal-Api-Spec.pdf)
+[Reporting-Portal-Api-Spec.pdf](https://github.com/Surraiya/UI-API-Testing/blob/Variant2(Web%2BApi)/Reporting-Portal-Api-Spec.pdf)
 
 ## Technologies
 Project is created with:
